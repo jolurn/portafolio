@@ -362,7 +362,44 @@ footer {
   .imagen__about-us {
     width: 90%;
   }
+  /*-----------------*/
 
+  .habilidades:nth-child(1) .barra::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1;
+    background: #e6d63e;
+    width: 65%;
+    height: 20px;
+  }
+  .habilidades:nth-child(3) .barra::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1;
+    background: #e6d63e;
+    width: 40%;
+    height: 20px;
+  }
+  .habilidades:nth-child(5) .barra::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1;
+    background: #e6d63e;
+    width: 60%;
+    height: 20px;
+  }
+  .habilidades:nth-child(7) .barra::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1;
+    background: #e6d63e;
+    width: 50%;
+    height: 20px;
+  }
   /* Portafolio */
 
   .imagen__port {
@@ -408,6 +445,43 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
+  .habilidades:nth-child(1) .barra::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1;
+    background: #e6d63e;
+    width: 65%;
+    height: 20px;
+  }
+  .habilidades:nth-child(3) .barra::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1;
+    background: #e6d63e;
+    width: 40%;
+    height: 20px;
+  }
+  .habilidades:nth-child(5) .barra::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1;
+    background: #e6d63e;
+    width: 60%;
+    height: 20px;
+  }
+  .habilidades:nth-child(7) .barra::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1;
+    background: #e6d63e;
+    width: 50%;
+    height: 20px;
+  }
+  /*------------*/
   nav {
     text-align: center;
     padding: 30px 0 0 0;
