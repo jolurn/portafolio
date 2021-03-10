@@ -352,10 +352,13 @@ footer {
     align-items: center;
   }
 
-  .sobre__nosotros .contenido-textos {
+  .sobre__nosotros .contenido__textos {
     width: 90%;
+    text-align: center;
   }
-
+  .sobre__nosotros .contenido__textos p {
+    text-align: center;
+  }
   .imagen__about-us {
     width: 90%;
   }
@@ -429,7 +432,7 @@ footer {
     width: 99%;
   }
 
-  .sobre__nosotros .contenido-textos {
+  .sobre__nosotros .contenido__textos {
     width: 95%;
   }
 
